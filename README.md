@@ -1,6 +1,6 @@
-# Factorial
+#java program for factorial
 
-
+#import essential header files
 import java.util.Scanner;
  
 class Factorial
@@ -18,9 +18,10 @@ class Factorial
          System.out.println("Number should be non-negative.");
       else
       {
+      #calculate factorial
          for ( c = 1 ; c <= n ; c++ )
             fact = fact*c;
- 
+      #display result
          System.out.println("Factorial of "+n+" is = "+fact);
       }
    }
