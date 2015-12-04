@@ -7,7 +7,7 @@ class Factorial
 {
    public static void main(String args[])
    {
-      int n, c, fact = 1;
+      int n, c, fact = 1,i,sum=0;
  
       System.out.println("Enter an integer to calculate it's factorial");
       Scanner in = new Scanner(System.in);
@@ -23,5 +23,9 @@ class Factorial
  
          System.out.println("Factorial of "+n+" is = "+fact);
       }
+      System.out.pritln("sum of nos.upto given no.:");
+      for(i=1;i<=n;i++)
+          sum+=i;
+      System.out.println("Sum is:"+sum);
    }
 }
